@@ -1,22 +1,8 @@
-# Spirit Points Bridge
+# Repository extraction workspace
 
-A static MVP landing page for a travel-service concept that helps travelers use
-their own Spirit points as part of lower-cost complete trips.
+This branch packages the Spirit Points Bridge MVP as a standalone project inside
+`spirit-points-bridge/`.
 
-The site is intentionally built without a backend so the idea can be tested
-quickly with a landing page, a route-request form, and manual concierge
-fulfillment.
-
-## Files
-
-- `index.html` - page structure and product messaging
-- `styles.css` - responsive visual design
-- `script.js` - client-side bridge strategy estimator
-
-## Run locally
-
-Open `index.html` in a browser, or serve the folder with any static server:
-
-```bash
-python3 -m http.server 8000
-```
+The product should live in a separate GitHub repository. Use
+`spirit-points-bridge/NEW_REPO_SETUP.md` for the exact commands to create and
+push the new repo.
